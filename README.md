@@ -4,6 +4,3 @@
 
 ![](/project.svg)
 
-## Proportional Shift
-
-

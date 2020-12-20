@@ -1,195 +1,170 @@
 {
-    "molecules": [
+    "atomType": "Molecule",
+    "name": "Proportional Shift",
+    "x": 463,
+    "y": 65,
+    "uniqueID": 761197,
+    "ioValues": [
         {
-            "atomType": "Molecule",
-            "name": "Proportional Shift",
-            "x": 463,
-            "y": 65,
-            "uniqueID": 761197,
-            "ioValues": [
-                {
-                    "name": "X",
-                    "ioValue": 1000
-                },
-                {
-                    "name": "Y",
-                    "ioValue": 1200
-                },
-                {
-                    "name": "ScaleX",
-                    "ioValue": 0.3
-                },
-                {
-                    "name": "ScaleY",
-                    "ioValue": 0.4
-                },
-                {
-                    "name": "Geometry",
-                    "ioValue": 10
-                }
-            ],
-            "topLevel": true,
-            "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "X",
-                    "x": 31,
-                    "y": 42,
-                    "uniqueID": 805318,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Y",
-                    "x": 31,
-                    "y": 95,
-                    "uniqueID": 595187,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "ScaleX",
-                    "x": 29,
-                    "y": 139,
-                    "uniqueID": 589445,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "ScaleY",
-                    "x": 29,
-                    "y": 184,
-                    "uniqueID": 613620,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Geometry",
-                    "x": 28,
-                    "y": 233,
-                    "uniqueID": 811834,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 244.38067349926794,
-                    "y": 71.21522693997072,
-                    "uniqueID": 907455,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 1000
-                        },
-                        {
-                            "name": "s",
-                            "ioValue": 0.3
-                        }
-                    ],
-                    "currentEquation": "x*s"
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 325.34114202049784,
-                    "y": 125.18887262079063,
-                    "uniqueID": 104198,
-                    "ioValues": [
-                        {
-                            "name": "y",
-                            "ioValue": 1200
-                        },
-                        {
-                            "name": "s",
-                            "ioValue": 0.4
-                        }
-                    ],
-                    "currentEquation": "y*s"
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 721,
-                    "y": 153.1654465592972,
-                    "uniqueID": 509072,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 300
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 480
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap1ID": 805318,
-                    "ap2ID": 907455
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "y",
-                    "ap1ID": 595187,
-                    "ap2ID": 104198
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "s",
-                    "ap1ID": 589445,
-                    "ap2ID": 907455
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "s",
-                    "ap1ID": 613620,
-                    "ap2ID": 104198
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 811834,
-                    "ap2ID": 509072
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap1ID": 907455,
-                    "ap2ID": 509072
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "yDist",
-                    "ap1ID": 104198,
-                    "ap2ID": 509072
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 509072
-                }
-            ],
-            "fileTypeVersion": 1
+            "name": "X",
+            "ioValue": 1000
+        },
+        {
+            "name": "Y",
+            "ioValue": 1200
+        },
+        {
+            "name": "ScaleX",
+            "ioValue": 0.3
+        },
+        {
+            "name": "ScaleY",
+            "ioValue": 0.4
+        },
+        {
+            "name": "Geometry",
+            "ioValue": 10
         }
     ],
+    "topLevel": true,
+    "allAtoms": [
+        {
+            "atomType": "Input",
+            "name": "X",
+            "x": 0.013333333333333334,
+            "y": 0.2824427480916031,
+            "uniqueID": 805318,
+            "ioValues": []
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.14402451481103168,
+            "y": 0.37022900763358774,
+            "uniqueID": 907455,
+            "ioValues": [],
+            "currentEquation": "x*s"
+        },
+        {
+            "atomType": "Input",
+            "name": "Y",
+            "x": 0.013333333333333334,
+            "y": 0.450381679389313,
+            "uniqueID": 595187,
+            "ioValues": []
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.5372829417773237,
+            "y": 0.3129770992366412,
+            "uniqueID": 509072,
+            "ioValues": [
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Input",
+            "name": "ScaleX",
+            "x": 0.013333333333333334,
+            "y": 0.6335877862595419,
+            "uniqueID": 589445,
+            "ioValues": []
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.23391215526046988,
+            "y": 0.6564885496183206,
+            "uniqueID": 104198,
+            "ioValues": [],
+            "currentEquation": "y*s"
+        },
+        {
+            "atomType": "Input",
+            "name": "ScaleY",
+            "x": 0.013333333333333334,
+            "y": 0.7977099236641221,
+            "uniqueID": 613620,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "Geometry",
+            "x": 0.013333333333333334,
+            "y": 0.9045801526717557,
+            "uniqueID": 811834,
+            "ioValues": []
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9734422880490297,
+            "y": 0.549618320610687,
+            "ioValues": []
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 805318,
+            "ap2ID": 907455
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "xDist",
+            "ap2Primary": false,
+            "ap1ID": 907455,
+            "ap2ID": 509072
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": 595187,
+            "ap2ID": 104198
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 509072
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "s",
+            "ap2Primary": false,
+            "ap1ID": 589445,
+            "ap2ID": 907455
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "yDist",
+            "ap2Primary": false,
+            "ap1ID": 104198,
+            "ap2ID": 509072
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "s",
+            "ap2Primary": false,
+            "ap1ID": 613620,
+            "ap2ID": 104198
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 811834,
+            "ap2ID": 509072
+        }
+    ],
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1,
     "circleSegmentSize": 2
 }
